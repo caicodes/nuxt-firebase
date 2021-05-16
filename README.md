@@ -19,15 +19,31 @@ $ yarn generate
 # add firebase
 yarn add firebase
 
-#add @nuixtjs/firebase module
+# add @nuixtjs/firebase module
 yarn add @nuxtjs/firebase
 
-#add to nuxt.config.js
-
 modules: [
-    '@nuxtjs/firebase',
-]
-
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: '<apiKey>',
+          authDomain: '<authDomain>',
+          projectId: '<projectId>',
+          storageBucket: '<storageBucket>',
+          messagingSenderId: '<messagingSenderId>',
+          appId: '<appId>',
+          measurementId: '<measurementId>'
+        },
+        services: {
+          auth: true // Just as example. Can be any other service.
+        }
+      }
+    ]
+  ],
+  
+  ```
+  
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 
