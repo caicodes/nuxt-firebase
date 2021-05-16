@@ -35,22 +35,6 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-
-    '@nuxtjs/firebase',
-    {
-      config: {
-        apiKey: 'AIzaSyD7E2qZhaf7NvmaRhXAiaRaS5eZkFlK4Zs',
-        authDomain: 'caicodes-nuxt-firebase.firebaseapp.com',
-        projectId: 'caicodes-nuxt-firebase',
-        storageBucket: 'caicodes-nuxt-firebase.appspot.com',
-        messagingSenderId: '1029787023844',
-        appId: '1:1029787023844:web:b7d10db477c758cf036ff1',
-        measurementId: 'G-LL1916JW56',
-      },
-      services: {
-        auth: true, // Just as example. Can be any other service.
-      },
-    },
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
