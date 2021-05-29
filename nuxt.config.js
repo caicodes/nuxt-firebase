@@ -1,15 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyD7E2qZhaf7NvmaRhXAiaRaS5eZkFlK4Zs',
-  authDomain: 'caicodes-nuxt-firebase.firebaseapp.com',
-  projectId: 'caicodes-nuxt-firebase',
-  storageBucket: 'caicodes-nuxt-firebase.appspot.com',
-  messagingSenderId: '1029787023844',
-  appId: '1:1029787023844:web:b7d10db477c758cf036ff1',
-  measurementId: 'G-LL1916JW56',
-}
-
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -50,13 +40,14 @@ export default {
 
   firebase: {
     config: {
-      apiKey: 'AIzaSyD7E2qZhaf7NvmaRhXAiaRaS5eZkFlK4Zs',
-      authDomain: 'caicodes-nuxt-firebase.firebaseapp.com',
-      projectId: 'caicodes-nuxt-firebase',
-      storageBucket: 'caicodes-nuxt-firebase.appspot.com',
-      messagingSenderId: '1029787023844',
-      appId: '1:1029787023844:web:b7d10db477c758cf036ff1',
-      measurementId: 'G-LL1916JW56',
+      apiKey: 'AIzaSyAHG6McC96YePbkjX3PHwWRAbweCRw1Qs4',
+      authDomain: 'artasce-website.firebaseapp.com',
+      databaseURL: 'https://artasce-website-default-rtdb.firebaseio.com',
+      projectId: 'artasce-website',
+      storageBucket: 'artasce-website.appspot.com',
+      messagingSenderId: '694400167127',
+      appId: '1:694400167127:web:b1680050d3189e4c7cd492',
+      measurementId: 'G-0JKZCFZQ12',
     },
     services: {
       auth: true, // Just as example. Can be any other service.
